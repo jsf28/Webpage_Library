@@ -27,5 +27,8 @@ $(function(){
 /*Empieza accordion-section*/
 $(function(){
   $(".accordion-content p").hide();
-  $(".accordion-section h4:first").next().slideDown(1000);
+  $(".accordion-content h4").click(function(){
+    $(".accordion-content p").hide();
+    $(this).next().slideDown(1000);
+  });
 });

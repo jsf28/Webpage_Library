@@ -4,7 +4,7 @@
 /*Empieza body*/
 }
 body{
-  background-color: #F3F3F3;
+  background-color: white;
   margin: 0 auto;
   width: 1100px;
 }
@@ -15,7 +15,7 @@ body{
 }
 /*Empieza topinfo-section*/
 .top-info{
-  background-color: #F3F3F3;
+  background-color: white;
   padding: 10px 0;
 }
 .top-info ul{
@@ -45,9 +45,9 @@ body{
   position: relative;
   font-family: serif;
   font-size: 18px;
-  width: 390px;
+  width: 410px;
   color: blue;
-  left: 575px;
+  left: 557px;
   top:-35px;
 }
 /*Empieza social-logo*/
@@ -120,7 +120,7 @@ body{
   float: left;
 }
 .mid-link h5{
-  margin-left: -150px;;
+  margin-left: -150px;
   margin-top: 120px;
   width: 200px;
   float: left;
@@ -187,7 +187,7 @@ body{
 .accordion-section{
   margin-top: 80px;
   margin-left: 5px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   float: left;
 }
 .accordion-content h4{
@@ -204,9 +204,53 @@ body{
   border: 1px solid #990000;
   background-color: white;
   margin: 5px 0 5px 30px;
-  padding: 5px 0 0 10px;
+  padding: 5px 10px 0 10px;
   border-radius: 10px;
+  ext-align: justify;
+  text-indent: 20px;
   width: 1063px;
+}
+/*Empieza basesdatos.html*/
+/*Empieza basesdatos-main*/
+.basesdatos-main{
+  padding-top: 89px;
+}
+/*Empieza basesdatos-cover*/
+.basesdatos-cover img{
+  width: 1098px;
+  height: 250px;
+}
+/*Empieza basesdatos-subtitle*/
+.basesdatos-subtitle h3{
+  background-color: #F8F8F8;
+  border: 2px solid #990000;
+  margin-bottom: 20px;
+  margin-left: 390px;
+  text-align: center;
+  padding: 10px;
+  width: 325px;
+}
+/*Empieza basesdatos-info*/
+.basesdatos-info{
+  width: 1098px;
+}
+.basesdatos-info h4{
+  border: 1px solid #F3F3F3;
+  background-color:#990000;
+  padding: 5px 10px;
+  margin-left: 55px;
+  float: left;
+  color: white;
+}
+.basesdatos-info h5{
+  border: 1px solid green;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  margin-left: -55px;
+  margin-top: 45px;
+  padding: 5px;
+  width: 150px;
+  float: left;
 }
 /*Empieza contacto.html*/
 /*Empieza contact-form*/
@@ -214,6 +258,10 @@ body{
   margin-top: 80px;
   width: 500px;
   float: left;
+}
+/*Empieza contact-title*/
+.contact-title h3, p{
+  margin-left: 15px;
 }
 /*Empieza info-form*/
 .info-form{
@@ -234,4 +282,5 @@ body{
   height: 450px;
   width: 600px;
   float: left;
+  margin-left: -15px;
 }
