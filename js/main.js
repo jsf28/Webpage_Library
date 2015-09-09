@@ -23,7 +23,7 @@ $(function(){
       $(".third-link h6").fadeIn();
     });
   });
-/*Empieza biblioteca-webpage*/
+/*Empieza sobrenosotros-webpage*/
 /*Empieza accordion-section*/
 $(function(){
   $(".accordion-content p").hide();
@@ -31,4 +31,9 @@ $(function(){
     $(".accordion-content p").hide();
     $(this).next().slideDown(1000);
   });
+});
+/*Empieza basesdatos-webpage*/
+$(function(){
+  $(".basesdatos-info h4").toggle().slideDown(1000);
+  $(".basesdatos-info h5").toggle().fadeIn(3000);
 });
